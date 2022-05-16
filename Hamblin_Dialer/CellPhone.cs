@@ -8,7 +8,7 @@ namespace Hamblin_Dialer
 {
     class CellPhone : Phone
     {
-        public string CellPhone(string name, string phoneNumber, string type)
+        public CellPhone(string Name, string PhoneNumber, string Type) : base(Name, PhoneNumber, Type)
         {
 
         }

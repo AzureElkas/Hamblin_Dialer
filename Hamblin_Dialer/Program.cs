@@ -12,7 +12,7 @@ namespace Hamblin_Dialer
         static void Main(string[] args)
         {
             Phone[] PhoneArray = new Phone[10];
-            for ()
+            for (int i = 0; i <= 1; i++)
             {
 
             }

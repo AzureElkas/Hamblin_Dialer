@@ -8,13 +8,24 @@ namespace Hamblin_Dialer
 {
     abstract class Phone
     {
-        public string Phone(string name, string phoneNumber, string type)
+        string _name;
+        string _phoneNumber;
+        string _type;
+        public  Phone(string Name, string PhoneNumber, string Type)
         {
 
         }
-        public void Dial()
+        public string Dial()
         {
+            if (_type == "1")
+            {
 
+            }
+            if (_type == "2")
+            {
+                    
+            }
+            return _name + " is being dialed using " + _phoneNumber;
         }
     }
 }
