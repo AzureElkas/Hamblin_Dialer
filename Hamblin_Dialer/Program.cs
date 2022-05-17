@@ -11,10 +11,12 @@ namespace Hamblin_Dialer
     {
         static void Main(string[] args)
         {
+            HomePhone test = new HomePhone("test", "aaaaa", "test again");
             Phone[] PhoneArray = new Phone[10];
-            for (int i = 0; i <= 1; i++)
+            PhoneArray[0] = test;
+            for (int i = 0; i <= 0; i++)
             {
-
+                Console.WriteLine(PhoneArray[i].Dial());
             }
         }
     }

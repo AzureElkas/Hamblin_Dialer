@@ -13,19 +13,13 @@ namespace Hamblin_Dialer
         string _type;
         public  Phone(string Name, string PhoneNumber, string Type)
         {
-
+            _name = Name;
+            _phoneNumber = PhoneNumber;
+            _type = Type;
         }
         public string Dial()
         {
-            if (_type == "1")
-            {
-
-            }
-            if (_type == "2")
-            {
-                    
-            }
-            return _name + " is being dialed using " + _phoneNumber;
+            return _name;
         }
     }
 }
