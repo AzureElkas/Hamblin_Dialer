@@ -12,5 +12,9 @@ namespace Hamblin_Dialer
         {
 
         }
+        public override string Dial()
+        {
+            return GetName() + " is being dialed using 1+" + GetNumber() + "...";
+        }
     }
 }
